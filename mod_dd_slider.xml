@@ -1,0 +1,29 @@
+<extension type="module" version="3.8.0" client="site" method="upgrade">
+    <name>MOD_DD_SLIDER</name>
+    <author>Thomas Winterling</author>
+    <creationDate>15.11.2018</creationDate>
+    <copyright>Copyright (C) 2018 - 2018 Open Winterling-labs. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>thomas@winterling-labs.com</authorEmail>
+    <authorUrl>Winterling-Labs</authorUrl>
+    <version>1.0.0</version>
+    <description>MOD_DD_SLIDER_XML_DESCRIPTION</description>
+    <files>
+        <filename>mod_dd_slider.xml</filename>
+        <filename module="mod_dd_slider">mod_dd_slider.php</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+    </files>
+    <config>
+    </config>
+    <media folder="media" destination="mod_dd_slider">
+        <folder>css</folder>
+        <folder>js</folder>
+    </media>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_dd_slider.ini</language>
+        <language tag="en-GB">en-GB/en-GB.mod_dd_slider.sys.ini</language>
+    </languages>
+
+</extension>
