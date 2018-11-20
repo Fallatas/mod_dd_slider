@@ -12,3 +12,5 @@ JHtml::_('stylesheet', 'mod_dd_slider/style.css', array('version' => 'auto', 're
 JHtml::_('script', 'mod_dd_slider/article_slides.js', array('version' => 'auto', 'relative' => true));
 
 ?>
+
+<?php echo $sliderfunction; ?>
