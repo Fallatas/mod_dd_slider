@@ -38,7 +38,8 @@ class modDD_SliderHelper
 
         $i = 0;
 
-        foreach ($moduleparams->params as $slide){
+        foreach ($moduleparams->params as $slide)
+        {
 
             $i++;
             $html .= '<div id="dd_article_slides_fields' . $i . '" class="article_slide">';
