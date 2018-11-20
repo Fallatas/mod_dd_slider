@@ -16,6 +16,25 @@
         <folder>tmpl</folder>
     </files>
     <config>
+        <fields name="params">
+
+            <fieldset name="basic">
+
+                <field
+                        name= "params"
+                        type= "subform"
+                        label= "MOD_SYSTEM_DD_ARTICLE_SLIDES"
+                        min= "1"
+                        max= "12"
+                        required= "true"
+                        formsource= "modules/mod_dd_slider/single_slide.xml"
+                        multiple= "true"
+                        buttons= "add,remove"
+                />
+
+
+            </fieldset>
+        </fields>
     </config>
     <media folder="media" destination="mod_dd_slider">
         <folder>css</folder>
