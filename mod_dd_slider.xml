@@ -12,6 +12,7 @@
         <filename>mod_dd_slider.xml</filename>
         <filename module="mod_dd_slider">mod_dd_slider.php</filename>
         <filename>helper.php</filename>
+        <filename>single_slide.xml</filename>
         <folder>tmpl</folder>
     </files>
     <config>
