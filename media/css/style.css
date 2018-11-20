@@ -80,10 +80,10 @@
     left: -2px;
 }
 #dd_article_slides .article_slide_info_toggle .icon-dd-arrow-up {
-    bottom: -2px;
+    bottom: 4px;
 }
 #dd_article_slides .article_slide_info_toggle .icon-dd-arrow-down {
-    top: -2px;
+    top: -11px;
 }
 
 @font-face {
