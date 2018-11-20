@@ -10,6 +10,7 @@ defined('_JEXEC') or die;
 
 JLoader::register('ModDD_SliderHelper', __DIR__ . '/helper.php');
 
+$sliderfunction = modDD_SliderHelper::getSliderHTML($params);
 
 // Check for a custom CSS file
 JHtml::_('stylesheet', 'mod_dd_slider/user.css', array('version' => 'auto', 'relative' => true));
