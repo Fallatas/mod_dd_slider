@@ -13,10 +13,6 @@ JHtml::_('script', 'mod_dd_slider/article_slides.js', array('version' => 'auto',
 
 ?>
 
-<?php
-
-?>
-
 <div id="dd_article_slides">
 
     <?php
@@ -27,12 +23,12 @@ JHtml::_('script', 'mod_dd_slider/article_slides.js', array('version' => 'auto',
     {
         $i++;
         ?>
-        <div id="dd_article_slides_fields<?php echo $i;?>" class="article_slide">
+        <div id="dd_article_slides_fields<?php echo $i; ?>" class="article_slide">
             <div class="article_slide_inner">
-                <img src="<?php echo $slide->image?>" alt="<?php echo $slide->image_alt?>">
+                <img src="<?php echo $slide->image; ?>" alt="<?php echo $slide->image_alt; ?>">
                 <div class="article_slide_info">
-                    <p><?php echo $slide->image_desc?></p>
-                    <small>Bild: <?php echo $slide->image_source?></small>
+                    <p><?php echo $slide->image_desc; ?></p>
+                    <small>Bild: <?php echo $slide->image_source; ?></small>
                 </div>
                 <button class="article_slide_info_toggle">
                     <span class="icon-dd-arrow-up"></span>
@@ -46,7 +42,7 @@ JHtml::_('script', 'mod_dd_slider/article_slides.js', array('version' => 'auto',
 
     <div class="article_slides_controls">
         <span class="icon-dd-arrow-left" id="slide-left"></span>
-        <span id="article_slide_active">1</span> / <span><?php echo count( (array) $sliderfunction->params)?></span>
+        <span id="article_slide_active">1</span> / <span><?php echo count( (array) $sliderfunction->params); ?></span>
         <span class="icon-dd-arrow-right" id="slide-right"></span>
     </div>
 
