@@ -13,10 +13,6 @@ JHtml::_('script', 'mod_dd_slider/article_slides.js', array('version' => 'auto',
 
 ?>
 
-<?php
-
-?>
-
 <div id="dd_article_slides">
 
     <?php
@@ -29,10 +25,10 @@ JHtml::_('script', 'mod_dd_slider/article_slides.js', array('version' => 'auto',
         ?>
         <div id="dd_article_slides_fields<?php echo $i;?>" class="article_slide">
             <div class="article_slide_inner">
-                <img src="<?php echo $slide->image?>" alt="<?php echo $slide->image_alt?>">
+                <img src="<?php echo $slide->image;?>" alt="<?php echo $slide->image_alt;?>">
                 <div class="article_slide_info">
-                    <p><?php echo $slide->image_desc?></p>
-                    <small>Bild: <?php echo $slide->image_source?></small>
+                    <p><?php echo $slide->image_desc;?></p>
+                    <small>Bild: <?php echo $slide->image_source;?></small>
                 </div>
                 <button class="article_slide_info_toggle">
                     <span class="icon-dd-arrow-up"></span>
